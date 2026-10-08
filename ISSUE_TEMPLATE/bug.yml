@@ -1,0 +1,8 @@
+name: Anomalie
+description: Quelque chose ne fonctionne pas comme prévu
+labels: ["type:correctif"]
+body:
+  - type: textarea
+    id: constat
+    attributes: { label: Constat, description: "Ce qui se passe, ce qui était attendu, comment le reproduire." }
+    validations: { required: true }
